@@ -1,0 +1,32 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: $color-white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        padding: 1rem 1.5rem;        
+    }
+
+    a{
+        color: $color-black;
+        text-transform: uppercase;       
+        font-family: "Raleway-Regular"; 
+        &:hover{
+            color: $color-primary;
+        }
+    }
+    
+    .nav-icons:before {
+       margin-right: .5rem;       
+    }
+}

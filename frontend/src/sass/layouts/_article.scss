@@ -1,0 +1,14 @@
+.article{
+    @extend .header;
+   
+   &-text{
+        @extend .header-text;
+        h1{
+          color: $color-black;
+        }
+   }
+
+   &-image{
+        @extend .header-image;
+   }
+}
